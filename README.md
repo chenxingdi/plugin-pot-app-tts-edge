@@ -1,40 +1,55 @@
-# Plugin Pot App TTS Edge
+# Plugin Pot App TTS Edge 🎤
 
-## Description
-This project is a plugin for text-to-speech (TTS) applications that enhance the user experience by providing natural-sounding speech outputs. It is designed to be easy to install and use, while supporting various platforms and configurations.
+Welcome to the **Plugin Pot App TTS Edge**! This repository provides powerful text-to-speech capabilities with advanced features. 🚀
 
-## Setup Instructions
-1. **Clone the repository:**  
+## Table of Contents 📚
+1. [Installation Instructions](#installation-instructions)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
+
+---
+
+## Installation Instructions 🛠️
+To get started with the Plugin Pot App TTS Edge, please follow these steps:
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/chenxingdi/plugin-pot-app-tts-edge.git
-   ```  
-2. **Navigate to the project directory:**  
+   ```
+
+2. Navigate to the project directory:
    ```bash
    cd plugin-pot-app-tts-edge
-   ```  
-3. **Install dependencies:**  
+   ```
+
+3. Install the required dependencies:
    ```bash
    npm install
-   ```  
-4. **Run the application:**  
+   ```
+
+## Usage 📜
+Once installed, you can use the application as follows:
+
+1. Open your terminal and run:
    ```bash
    npm start
-   ```  
+   ```
 
-## Usage Examples
-- **Basic Usage:**
-  ```javascript
-  const tts = require('tts-edge');
-  tts.speak('Hello, world!');
-  ```
-- **Advanced Configuration:**
-  ```javascript
-  const options = { language: 'en-US', voice: 'en-US-Wavenet-D' };
-  tts.speak('Hello, with options!', options);
-  ```
+2. Follow the prompts to input your text.
 
-## Contributing
-We welcome contributions! Please submit a pull request or open an issue to discuss improvements.
+3. Enjoy the synthesized speech output! 🎶
 
-## License
-This project is licensed under the MIT License.
+## Contributing 🤝
+We welcome contributions! Please follow these guidelines:
+
+- Fork the repository
+- Create a new branch for your feature or bugfix
+- Submit a pull request detailing your changes
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for using **Plugin Pot App TTS Edge**! For questions or support, please reach out to our team. 😊
