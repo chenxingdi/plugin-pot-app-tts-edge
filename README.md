@@ -1,2 +1,10 @@
-just download the .potext file ,and load it in pot translate,and run the tts_server.py
-,may be it's better start the server in task scheduler in windows
+---
+
+### Setup Instructions
+
+1.  **Run** the script: `tts_server.py`.
+2.  **Load** the file into **POT Translate**.
+3.  **Download** the `.potext` file.
+
+> [!TIP]
+> For a better experience on Windows, it is recommended to start the server automatically using the **Task Scheduler**.
