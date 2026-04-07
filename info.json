@@ -1,0 +1,87 @@
+{
+  "id": "plugin.com.pot-app.edge_tts",
+  "plugin_type": "tts",
+  "icon": "edge_tts.svg",
+  "display": "Edge TTS (本地)",
+  "homepage": "https://github.com/rany2/edge-tts",
+  "needs": [
+    {
+      "key": "requestPath",
+      "display": "服务地址 (默认 http://localhost:9527)",
+      "type": "input"
+    },
+    {
+      "key": "voice",
+      "display": "声音",
+      "type": "select",
+      "options": {
+        "zh-CN-XiaoxiaoNeural":  "zh-CN-XiaoxiaoNeural (普通话·女·温柔·推荐)",
+        "zh-CN-XiaoyiNeural":    "zh-CN-XiaoyiNeural (普通话·女·活泼)",
+        "zh-CN-YunxiNeural":     "zh-CN-YunxiNeural (普通话·男·自然)",
+        "zh-CN-YunyangNeural":   "zh-CN-YunyangNeural (普通话·男·新闻)",
+        "zh-CN-YunfengNeural":   "zh-CN-YunfengNeural (普通话·男·沉稳)",
+        "zh-TW-HsiaoChenNeural": "zh-TW-HsiaoChenNeural (台湾中文·女)",
+        "zh-TW-YunJheNeural":    "zh-TW-YunJheNeural (台湾中文·男)",
+        "zh-HK-HiuMaanNeural":   "zh-HK-HiuMaanNeural (粤语·女)",
+        "zh-HK-WanLungNeural":   "zh-HK-WanLungNeural (粤语·男)",
+        "en-US-JennyNeural":     "en-US-JennyNeural (美式英语·女·通用)",
+        "en-US-GuyNeural":       "en-US-GuyNeural (美式英语·男)",
+        "en-US-AriaNeural":      "en-US-AriaNeural (美式英语·女·自然)",
+        "en-GB-SoniaNeural":     "en-GB-SoniaNeural (英式英语·女)",
+        "en-GB-RyanNeural":      "en-GB-RyanNeural (英式英语·男)",
+        "ja-JP-NanamiNeural":    "ja-JP-NanamiNeural (日语·女)",
+        "ja-JP-KeitaNeural":     "ja-JP-KeitaNeural (日语·男)",
+        "ko-KR-SunHiNeural":     "ko-KR-SunHiNeural (韩语·女)",
+        "ko-KR-InJoonNeural":    "ko-KR-InJoonNeural (韩语·男)",
+        "fr-FR-DeniseNeural":    "fr-FR-DeniseNeural (法语·女)",
+        "de-DE-KatjaNeural":     "de-DE-KatjaNeural (德语·女)",
+        "es-ES-ElviraNeural":    "es-ES-ElviraNeural (西班牙语·女)",
+        "ru-RU-SvetlanaNeural":  "ru-RU-SvetlanaNeural (俄语·女)",
+        "it-IT-ElsaNeural":      "it-IT-ElsaNeural (意大利语·女)",
+        "pt-BR-FranciscaNeural": "pt-BR-FranciscaNeural (葡萄牙语·女)",
+        "tr-TR-EmelNeural":      "tr-TR-EmelNeural (土耳其语·女)",
+        "vi-VN-HoaiMyNeural":    "vi-VN-HoaiMyNeural (越南语·女)"
+      }
+    },
+    {
+      "key": "rate",
+      "display": "语速",
+      "type": "select",
+      "options": {
+        "-50%": "-50% (很慢)",
+        "-25%": "-25% (慢)",
+        "+0%":  "+0% (正常)",
+        "+25%": "+25% (快)",
+        "+50%": "+50% (很快)",
+        "+100%": "+100% (极快)"
+      }
+    },
+    {
+      "key": "pitch",
+      "display": "音调",
+      "type": "select",
+      "options": {
+        "-50Hz": "-50Hz (低沉)",
+        "+0Hz":  "+0Hz (正常)",
+        "+50Hz": "+50Hz (清亮)",
+        "+100Hz": "+100Hz (高亢)"
+      }
+    }
+  ],
+  "language": {
+    "zh_cn": "zh",
+    "zh_tw": "zh",
+    "en":    "en",
+    "ja":    "ja",
+    "ko":    "ko",
+    "fr":    "fr",
+    "es":    "es",
+    "ru":    "ru",
+    "de":    "de",
+    "it":    "it",
+    "tr":    "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi":    "vi"
+  }
+}
